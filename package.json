@@ -1,0 +1,19 @@
+{
+  "name": "ts-date-time-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --declaration",
+    "start:dev": "ts-node-dev --T --ignore node_modules src/sample.ts"
+  },
+  "keywords": [],
+  "author": "Breno Vieira <https://github.com/BrenoVieira41>",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
